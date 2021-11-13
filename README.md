@@ -10,6 +10,8 @@ A.1. How to request GPU quota increase in Google Cloud -
 1. Click on EDIT QUOTAS and then fill the form that pops up on the right-hand side.
 1. Click on Submit request.
 
+> Compute Engine API; Quota: GPUs; Enter a new quota limit: 1
+
 **2xCPU Intel Skylake + GPU NVIDIA Tesla K80 / RAM 13 GB  / SSD 100 GB\
 Debian GNU/Linux 10\
 PyTorch 1.10 (CUDA 11.0)**
