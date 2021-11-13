@@ -15,3 +15,8 @@ A.1. How to request GPU quota increase in Google Cloud -
 **2xCPU Intel Skylake + GPU NVIDIA Tesla K80 / RAM 13 GB  / SSD 100 GB\
 Debian GNU/Linux 10\
 PyTorch 1.10 (CUDA 11.0)**
+
+A.2. Google Colab trying
+
+https://colab.research.google.com/drive/
+
