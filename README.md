@@ -131,6 +131,8 @@ Using Google Cloud Shell: https://cloud.google.com/shell/docs/using-cloud-shell
 
 ```$ wget -c https://my-server/testing.tar -O smoke-yolo/testing.tar```
 
+or ```Google Cloud Platform\Activate Cloud Shell\More...Upload File```
+
 2.1. Проверка на тестовой выборке, 279326 JPEG-файлов, полученных из исходных MTS, AVI.
 
 ```
