@@ -2,6 +2,11 @@
 
 A. Настройка среды для обучения нейросети
 
+Pre-trained datasets: https://github.com/CMU-CREATE-Lab/deep-smoke-machine/tree/master/back-end/data/pretrained_models
+**Open-source published under terms of BSD-3-Clause License**
+
+---
+
 A.1. How to request GPU quota increase in Google Cloud - 
 
 1. Go to quotas page.
