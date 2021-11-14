@@ -127,6 +127,10 @@ Using Google Cloud Shell: https://cloud.google.com/shell/docs/using-cloud-shell
 
 ...
 
+2.0. Загрузить тестовую выборку на Google Cloud vm-instance
+
+```$ wget -c https://my-server/testing.tar -O smoke-yolo/testing.tar```
+
 2.1. Проверка на тестовой выборке, 279326 JPEG-файлов, полученных из исходных MTS, AVI.
 
 ```
