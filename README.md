@@ -36,7 +36,8 @@ Downloading The Cloud SDK (gcloud), https://cloud.google.com/sdk/docs/install?hl
 
 Заранее подготовили файлы к обработке:
 
-```$ ls -1 *.{MTS,avi} | xargs -n1 -I{} ffmpeg -i {} ffmpeg -i {} {}_%06d.jpg```
+```$ find . -type f -name '*.jpg' | xargs -n1 -I{} rm -f {}
+$ ls -1 *.{MTS,avi} | xargs -n1 -I{} ffmpeg -i {} ffmpeg -i {} {}_%011d.jpg```
 
 B.1. Настройка среды выполнения
 
