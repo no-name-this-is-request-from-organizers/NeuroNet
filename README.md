@@ -40,7 +40,13 @@ Downloading The Cloud SDK (gcloud), https://cloud.google.com/sdk/docs/install?hl
 
 B.1. Настройка среды выполнения
 
-1.1. Configure NVIDIA drivers, CUDA and cuDNN for neuronet.
+1.1. Install the GCloud SDK
+
+https://cloud.google.com/sdk/docs/install
+
+1.2. Connect to Linux VM
+
+1.3. Configure NVIDIA drivers, CUDA and cuDNN for neuronet.
 
 
 C* Также, возможно использование нейросети U-Net на базе датасета Fire Luminosity Airborne-based Machine learning Evaluation (от Air Force Research Laboratory, US) для обнаружения открытого огня с дронов
