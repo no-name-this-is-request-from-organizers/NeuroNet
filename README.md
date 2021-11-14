@@ -95,7 +95,14 @@ a) Download sh-installers from https://www.nvidia.com/ru-ru/
 
 ![NVIDIA-driver-TESLA-K80](https://user-images.githubusercontent.com/12969866/141670031-d8a99eb2-149b-4cac-bd47-a75fa68b5195.png)
 
-
+```
+$ wget https://developer.download.nvidia.com/compute/cuda/11.5.0/local_installers/cuda-repo-debian11-11-5-local_11.5.0-495.29.05-1_amd64.deb
+$ sudo dpkg -i cuda-repo-debian11-11-5-local_11.5.0-495.29.05-1_amd64.deb
+$ sudo apt-key add /var/cuda-repo-debian11-11-5-local/7fa2af80.pub
+$ sudo add-apt-repository contrib
+$ sudo apt-get update
+$ sudo apt-get -y install cuda
+```
 ...
 
 2.1. Проверка на тестовой выборке, 279326 JPEG-файлов, полученных из исходных MTS, AVI.
