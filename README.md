@@ -49,8 +49,11 @@ https://cloud.google.com/sdk/docs/install
 
 1.2. Connect to Linux VM
 
+By the `gcloud cloud-shell` utility, or by Cloud Shell activating in the browser.
+
 1.3. Configure NVIDIA drivers, CUDA and cuDNN for neuronet.
 
+...
 
 C* Также, возможно использование нейросети U-Net на базе датасета Fire Luminosity Airborne-based Machine learning Evaluation (от Air Force Research Laboratory, US) для обнаружения открытого огня с дронов
 
