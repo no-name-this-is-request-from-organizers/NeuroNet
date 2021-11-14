@@ -67,6 +67,11 @@ W: Some index files failed to download. They have been ignored, or old ones used
 
 ...
 
+2.1. Проверка на тестовой выборке, 279326 JPEG-файлов, полученных из исходных MTS, AVI.
+
+...
+
+
 C* Также, возможно использование нейросети U-Net на базе датасета Fire Luminosity Airborne-based Machine learning Evaluation (от Air Force Research Laboratory, US) для обнаружения открытого огня с дронов
 
 См. препринт https://arxiv.org/pdf/2012.14036.pdf
