@@ -3,6 +3,7 @@
 A. Настройка среды для обучения нейросети
 
 Pre-trained datasets: https://github.com/CMU-CREATE-Lab/deep-smoke-machine/tree/master/back-end/data/pretrained_models
+
 **Open-source published under terms of BSD-3-Clause License**
 
 ---
@@ -60,9 +61,9 @@ By the `gcloud cloud-shell` utility, or by Cloud Shell activating in the browser
 
 1.3. Activate Cloud GPU
 
-https://cloud.google.com/gpu\
-https://cloud.google.com/compute/docs/gpus/create-vm-with-gpus\
-https://cloud.google.com/compute/docs/gpus/install-drivers-gpu\
+https://cloud.google.com/gpu<br/>
+https://cloud.google.com/compute/docs/gpus/create-vm-with-gpus<br/>
+https://cloud.google.com/compute/docs/gpus/install-drivers-gpu<br/>
 https://cloud.google.com/ai-platform/training/docs/using-gpus
 
 1.3. Configure NVIDIA drivers, CUDA and cuDNN for neuronet.
