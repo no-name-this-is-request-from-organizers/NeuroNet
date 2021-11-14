@@ -32,12 +32,14 @@ B.0. Копирование локальных файлов на VM
 
 Downloading The Cloud SDK (gcloud), https://cloud.google.com/sdk/docs/install?hl=en_US
 
-```gcloud compute scp --project PROJECT_ID --zone VM_ZONE --recurse <local file or directory> fg-vm:~/```
+```$ gcloud compute scp --project PROJECT_ID --zone VM_ZONE --recurse <local file or directory> fg-vm:~/```
 
 Заранее подготовили файлы к обработке:
 
-```$ find . -type f -name '*.jpg' | xargs -n1 -I{} rm -f {}
-$ ls -1 *.{MTS,avi} | xargs -n1 -I{} ffmpeg -i {} ffmpeg -i {} {}_%011d.jpg```
+```
+$ find . -type f -name '*.jpg' | xargs -n1 -I{} rm -f {}
+$ ls -1 *.{MTS,avi} | xargs -n1 -I{} ffmpeg -i {} ffmpeg -i {} {}_%011d.jpg
+```
 
 B.1. Настройка среды выполнения
 
