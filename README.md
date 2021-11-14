@@ -69,6 +69,19 @@ W: Some index files failed to download. They have been ignored, or old ones used
 
 2.1. Проверка на тестовой выборке, 279326 JPEG-файлов, полученных из исходных MTS, AVI.
 
+```
+$ find testing/ -type f -name '*.jpg' | wc -l
+279326
+$ cd testing/
+$ mkdir avi && find . -type f -iname '*.avi*' | xargs -n1 -I{} mv {} avi/
+$ mkdir mts && find . -type f -iname '*.mts*' | xargs -n1 -I{} mv {} mts/
+$ find avi/ -type f -name '*.jpg' | wc -l
+
+$ find mts/ -type f -name '*.jpg' | wc -l
+
+```
+
+
 ...
 
 
