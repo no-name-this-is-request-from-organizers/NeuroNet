@@ -16,9 +16,15 @@ A.1. How to request GPU quota increase in Google Cloud -
 Debian GNU/Linux 10\
 PyTorch 1.10 (CUDA 11.0)**
 
-A.2. Google Colab trying
+A.2* Google Colab trying
 
 https://colab.research.google.com/drive/
+
+A.3. New quota has been accepted by Google support,
+
+https://console.cloud.google.com/iam-admin/quotas
+
+Compute Engine API : 1 x GPU NVIDIA Tesla K80
 
 B. Использование нейросети I3D, натренированной на базе датасетов UCF-101 и HMDB-51 для обнаружения дыма от пожаров
 
