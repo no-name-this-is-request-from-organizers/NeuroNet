@@ -65,6 +65,13 @@ W: Failed to fetch http://storage.googleapis.com/bazel-apt/dists/stable/InReleas
 W: Some index files failed to download. They have been ignored, or old ones used instead.
 ```
 
+1.3a Disable nouveau driver and install `CUDA`.
+
+```
+$ sudo dpkg -S cuda | wc -l
+18
+```
+
 ...
 
 2.1. Проверка на тестовой выборке, 279326 JPEG-файлов, полученных из исходных MTS, AVI.
