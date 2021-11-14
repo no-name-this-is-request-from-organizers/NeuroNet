@@ -82,6 +82,20 @@ options nouveau modeset=0
 alias nouveau off
 alias lbm-nouveau off
 ```
+```sudo update-initramfs -u```
+
+
+Deinstall old NVIDIA drivers
+```
+sudo apt-get remove --purge '^nvidia-.*'
+sudo apt-get autoremove
+```
+Install NVIDIA drivers and CUDA
+```
+sudo apt install build-essential
+sudo apt-get install linux-headers-$(uname -r)
+...
+```
 
 ...
 
