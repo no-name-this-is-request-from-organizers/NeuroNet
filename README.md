@@ -34,6 +34,10 @@ Downloading The Cloud SDK (gcloud), https://cloud.google.com/sdk/docs/install?hl
 
 ```gcloud compute scp --project PROJECT_ID --zone VM_ZONE --recurse <local file or directory> fg-vm:~/```
 
+Заранее подготовили файлы к обработке:
+
+```$ ls -1 *.{MTS,avi} | xargs -n1 -I{} ffmpeg -i {} ffmpeg -i {} {}_%06d.jpg```
+
 B.1. Настройка среды выполнения
 
 ...
