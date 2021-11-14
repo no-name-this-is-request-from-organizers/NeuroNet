@@ -93,6 +93,9 @@ sudo apt-get autoremove
 Install NVIDIA drivers and CUDA
 a) Download sh-installers from https://www.nvidia.com/ru-ru/
 
+![NVIDIA-driver-TESLA-K80](https://user-images.githubusercontent.com/12969866/141670031-d8a99eb2-149b-4cac-bd47-a75fa68b5195.png)
+
+
 ...
 
 2.1. Проверка на тестовой выборке, 279326 JPEG-файлов, полученных из исходных MTS, AVI.
