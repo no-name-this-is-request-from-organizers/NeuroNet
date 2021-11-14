@@ -20,3 +20,12 @@ A.2. Google Colab trying
 
 https://colab.research.google.com/drive/
 
+B. Использование нейросети I3D, натренированной на базе датасетов UCF-101 и HMDB-51 для обнаружения дыма от пожаров
+
+B.1. Настройка среды выполнения
+
+...
+
+C* Также, возможно использование нейросети U-Net на базе датасета Fire Luminosity Airborne-based Machine learning Evaluation (от Air Force Research Laboratory, US) для обнаружения открытого огня с дронов
+
+См. препринт https://arxiv.org/pdf/2012.14036.pdf
