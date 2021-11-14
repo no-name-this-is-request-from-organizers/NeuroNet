@@ -28,6 +28,12 @@ Compute Engine API : 1 x GPU NVIDIA Tesla K80
 
 B. Использование нейросети I3D, натренированной на базе датасетов UCF-101 и HMDB-51 для обнаружения дыма от пожаров
 
+B.0. Копирование локальных файлов на VM
+
+Downloading The Cloud SDK (gcloud), https://cloud.google.com/sdk/docs/install?hl=en_US
+
+```gcloud compute scp --project PROJECT_ID --zone VM_ZONE --recurse <local file or directory> fg-vm:~/```
+
 B.1. Настройка среды выполнения
 
 ...
