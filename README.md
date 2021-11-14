@@ -103,6 +103,16 @@ $ sudo add-apt-repository contrib
 $ sudo apt-get update
 $ sudo apt-get -y install cuda
 ```
+
+1.4. Установка системы распознавания дыма на основе нейронной сети
+
+Using Google Cloud Shell: https://cloud.google.com/shell/docs/using-cloud-shell
+
+```
+
+```
+
+
 ...
 
 2.1. Проверка на тестовой выборке, 279326 JPEG-файлов, полученных из исходных MTS, AVI.
