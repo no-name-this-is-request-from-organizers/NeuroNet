@@ -70,6 +70,17 @@ W: Some index files failed to download. They have been ignored, or old ones used
 ```
 $ sudo dpkg -S cuda | wc -l
 18
+$ cd /etc/modprobe.d/
+$ sudo nano blacklist.conf
+```
+```
+# Add the following to this file
+# Blacklist nouveau driver (for nvidia driver installation)
+blacklist nouveau
+blacklist lbm-nouveau
+options nouveau modeset=0
+alias nouveau off
+alias lbm-nouveau off
 ```
 
 ...
