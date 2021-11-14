@@ -55,6 +55,11 @@ By the `gcloud cloud-shell` utility, or by Cloud Shell activating in the browser
 
 1.3. Configure NVIDIA drivers, CUDA and cuDNN for neuronet.
 
+Disable `apt get` warning in GCP Console:
+```mkdir ~/.cloudshell && touch ~/.cloudshell/no-apt-get-warning```
+
+```sudo apt-get update```
+
 ...
 
 C* Также, возможно использование нейросети U-Net на базе датасета Fire Luminosity Airborne-based Machine learning Evaluation (от Air Force Research Laboratory, US) для обнаружения открытого огня с дронов
