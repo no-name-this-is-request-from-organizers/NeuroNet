@@ -145,6 +145,9 @@ $ find avi/ -type f -name '*.jpg' | wc -l
 270122
 $ find mts/ -type f -name '*.jpg' | wc -l
 9204
+$ du -sh * 
+6.2G	avi
+649M	mts
 ```
 ![fin2_h264 avi_00000204451-fx](https://user-images.githubusercontent.com/12969866/141668872-543a2659-c8e5-4682-837b-1ceac9fbc8e2.jpg)
 
