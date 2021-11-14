@@ -1,3 +1,4 @@
+![CPU1](https://user-images.githubusercontent.com/12969866/141667317-bcdb2fca-53f6-4072-b9a8-073b1a99796f.png)
 # NeuroNet
 
 A. Настройка среды для обучения нейросети
