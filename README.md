@@ -103,6 +103,9 @@ $ sudo add-apt-repository contrib
 $ sudo apt-get update
 $ sudo apt-get -y install cuda
 ```
+1.3b Install PyTorch
+
+```$ conda install pytorch torchvision -c pytorch```
 
 1.4. Установка системы распознавания дыма на основе нейронной сети
 
