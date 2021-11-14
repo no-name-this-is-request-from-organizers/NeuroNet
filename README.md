@@ -58,7 +58,12 @@ By the `gcloud cloud-shell` utility, or by Cloud Shell activating in the browser
 Disable `apt get` warning in GCP Console:
 ```mkdir ~/.cloudshell && touch ~/.cloudshell/no-apt-get-warning```
 
-```sudo apt-get update```
+```
+sudo apt-get update
+...
+W: Failed to fetch http://storage.googleapis.com/bazel-apt/dists/stable/InRelease  Temporary failure resolving 'storage.googleapis.com'
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+```
 
 ...
 
