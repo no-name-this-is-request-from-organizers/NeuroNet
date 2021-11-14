@@ -1,4 +1,3 @@
-![CPU1](https://user-images.githubusercontent.com/12969866/141667317-bcdb2fca-53f6-4072-b9a8-073b1a99796f.png)
 # NeuroNet
 
 A. Настройка среды для обучения нейросети
@@ -51,6 +50,8 @@ https://cloud.google.com/sdk/docs/install
 1.2. Connect to Linux VM
 
 By the `gcloud cloud-shell` utility, or by Cloud Shell activating in the browser.
+
+![CPU1](https://user-images.githubusercontent.com/12969866/141667317-bcdb2fca-53f6-4072-b9a8-073b1a99796f.png)
 
 1.3. Configure NVIDIA drivers, CUDA and cuDNN for neuronet.
 
